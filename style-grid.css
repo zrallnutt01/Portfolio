@@ -1,0 +1,45 @@
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.design {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.name {
+    grid-column-start: 2;
+    grid-column-end: 5;    
+}
+.still {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 4;
+}
+.jack {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+@media (min-width: 600px) {
+    .body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+}
+.poster {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.mag {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 5;
+}
+.ball {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row: 5;
+}
+footer {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}

@@ -1,0 +1,86 @@
+body {
+    background-color: ghostwhite;
+}
+.Nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.list1 {
+    display: inline;
+    float: left;
+}
+.list1 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.list1 a:hover {
+    background-color: yellowgreen;
+}
+.design {
+    max-width: 100%;
+}
+.name {
+    text-align: center;
+    font-size: 35pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.still-img {
+    margin: 2px;
+    width: 300px;
+    height: 400px;   
+}
+.jack-img {
+    margin: 2px;
+    width: 300px;
+    height: 400px;
+}
+.poster-img {
+    width: 300px;
+    height: 400px;
+    margin: 2px;
+}
+.mag-img {
+    width: 600px;
+    margin: 2px;
+    max-width: 100%;
+}
+.ball-img {
+    width: 300px;
+    margin: 2px;
+    height: 400px;
+}
+.contact-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.contact {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 14pt;
+}
+.list2 {
+    display: inline-block;
+    text-align: center;
+}
+.list2 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.list2 a:hover {
+    background-color: yellowgreen;
+}
+
